@@ -1,0 +1,560 @@
+2026-02-02T11:35:49.444773+00:00 saleh-VMware-Virtual-Platform systemd-logind[1453]: New seat seat0.
+2026-02-02T11:35:49.444778+00:00 saleh-VMware-Virtual-Platform systemd-logind[1453]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-02-02T11:35:49.444783+00:00 saleh-VMware-Virtual-Platform systemd-logind[1453]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-02-02T11:35:49.444814+00:00 saleh-VMware-Virtual-Platform polkitd[1417]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T11:35:49.444819+00:00 saleh-VMware-Virtual-Platform polkitd[1417]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T11:35:49.444835+00:00 saleh-VMware-Virtual-Platform polkitd[1417]: Finished loading, compiling and executing 16 rules
+2026-02-02T11:35:49.444845+00:00 saleh-VMware-Virtual-Platform polkitd[1417]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-02T11:35:58.418153+00:00 saleh-VMware-Virtual-Platform useradd[1934]: new group: name=saleh, GID=1000
+2026-02-02T11:35:58.419739+00:00 saleh-VMware-Virtual-Platform useradd[1934]: new user: name=saleh, UID=1000, GID=1000, home=/home/saleh, shell=/bin/bash, from=none
+2026-02-02T11:35:58.425401+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to group 'adm'
+2026-02-02T11:35:58.425491+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to group 'cdrom'
+2026-02-02T11:35:58.425526+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to group 'sudo'
+2026-02-02T11:35:58.425581+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to group 'dip'
+2026-02-02T11:35:58.425606+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to group 'plugdev'
+2026-02-02T11:35:58.425674+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to group 'users'
+2026-02-02T11:35:58.425701+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to group 'lpadmin'
+2026-02-02T11:35:58.425754+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to shadow group 'adm'
+2026-02-02T11:35:58.425784+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to shadow group 'cdrom'
+2026-02-02T11:35:58.425807+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to shadow group 'sudo'
+2026-02-02T11:35:58.425834+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to shadow group 'dip'
+2026-02-02T11:35:58.425861+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to shadow group 'plugdev'
+2026-02-02T11:35:58.425890+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to shadow group 'users'
+2026-02-02T11:35:58.425914+00:00 saleh-VMware-Virtual-Platform useradd[1934]: add 'saleh' to shadow group 'lpadmin'
+2026-02-02T11:35:58.482204+00:00 saleh-VMware-Virtual-Platform passwd[1942]: password for 'saleh' changed by 'root'
+2026-02-02T11:36:02.658641+00:00 saleh-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-02-02T11:36:02.695381+00:00 saleh-VMware-Virtual-Platform systemd-logind[1453]: New session c1 of user gdm.
+2026-02-02T11:36:02.738082+00:00 saleh-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-02-02T11:36:05.985641+00:00 saleh-VMware-Virtual-Platform polkitd[1417]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-02T11:36:16.777053+00:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unable to locate daemon control file
+2026-02-02T11:36:16.777150+00:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: stashed password to try later in open session
+2026-02-02T11:36:16.786591+00:00 saleh-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session opened for user saleh(uid=1000) by saleh(uid=0)
+2026-02-02T11:36:16.794975+00:00 saleh-VMware-Virtual-Platform systemd-logind[1453]: New session 2 of user saleh.
+2026-02-02T11:36:16.857305+00:00 saleh-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user saleh(uid=1000) by saleh(uid=0)
+2026-02-02T11:36:17.183463+00:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T11:36:18.061850+00:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2872]: The Secret Service was already initialized
+2026-02-02T11:36:18.062418+00:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[3166]: discover_other_daemon: 1
+2026-02-02T11:36:18.074563+00:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[3170]: discover_other_daemon: 1
+2026-02-02T11:36:18.075213+00:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2872]: The PKCS#11 component was already initialized
+2026-02-02T11:36:18.075895+00:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[3171]: discover_other_daemon: 1
+2026-02-02T11:36:21.433961+00:00 saleh-VMware-Virtual-Platform polkitd[1417]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-02T11:36:23.807947+00:00 saleh-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-02-02T11:36:23.831951+00:00 saleh-VMware-Virtual-Platform systemd-logind[1453]: Session c1 logged out. Waiting for processes to exit.
+2026-02-02T11:36:23.861807+00:00 saleh-VMware-Virtual-Platform polkitd[1417]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-02-02T11:36:23.888093+00:00 saleh-VMware-Virtual-Platform systemd-logind[1453]: Removed session c1.
+2026-02-02T11:36:34.118921+00:00 saleh-VMware-Virtual-Platform (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-02-02T11:37:01.005843+00:00 saleh-VMware-Virtual-Platform CRON[4177]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T11:37:01.009720+00:00 saleh-VMware-Virtual-Platform CRON[4177]: pam_unix(cron:session): session closed for user root
+2026-02-02T11:37:01.012689+00:00 saleh-VMware-Virtual-Platform CRON[4179]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T11:37:01.014984+00:00 saleh-VMware-Virtual-Platform CRON[4179]: pam_unix(cron:session): session closed for user root
+2026-02-02T11:39:08.754879+00:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-02T11:39:08.755810+00:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T11:39:12.333403+00:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T11:40:21.396879+00:00 saleh-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T11:40:21.398026+00:00 saleh-VMware-Virtual-Platform pkexec[4744]: saleh: Executing command [USER=root] [TTY=unknown] [CWD=/home/saleh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-02-02T11:42:12.479154+00:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-02T11:42:12.480189+00:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T11:42:15.223894+00:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T11:42:39.539897+00:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt install -y nmap tcpdump git ufw
+2026-02-02T11:42:39.540567+00:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T11:42:49.735731+00:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T11:43:20.726256+00:00 saleh-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T11:43:20.727818+00:00 saleh-VMware-Virtual-Platform pkexec[5549]: saleh: Executing command [USER=root] [TTY=unknown] [CWD=/home/saleh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-02-02T11:45:01.022647+00:00 saleh-VMware-Virtual-Platform CRON[5559]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T11:45:01.030266+00:00 saleh-VMware-Virtual-Platform CRON[5559]: pam_unix(cron:session): session closed for user root
+2026-02-02T11:45:22.994874+00:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-02-02T11:45:22.996740+00:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T11:45:33.034276+00:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T11:45:33.041219+00:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/sbin/reboot
+2026-02-02T11:45:33.041638+00:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T11:45:33.048894+00:00 saleh-VMware-Virtual-Platform systemd-logind[1453]: The system will reboot now!
+2026-02-02T11:45:33.067012+00:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T11:45:33.076677+00:00 saleh-VMware-Virtual-Platform systemd-logind[1453]: System is rebooting.
+2026-02-02T11:45:33.103787+00:00 saleh-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session closed for user saleh
+2026-02-02T13:46:01.052073+02:00 saleh-VMware-Virtual-Platform systemd-logind[880]: New seat seat0.
+2026-02-02T13:46:01.052078+02:00 saleh-VMware-Virtual-Platform systemd-logind[880]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-02-02T13:46:01.052084+02:00 saleh-VMware-Virtual-Platform systemd-logind[880]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-02-02T13:46:01.052202+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T13:46:01.052211+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T13:46:01.052217+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T13:46:01.052229+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-02T13:46:05.084755+02:00 saleh-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-02-02T13:46:05.192126+02:00 saleh-VMware-Virtual-Platform systemd-logind[880]: New session c1 of user gdm.
+2026-02-02T13:46:05.306993+02:00 saleh-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-02-02T13:46:10.037001+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-02T13:46:52.830759+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unable to locate daemon control file
+2026-02-02T13:46:52.830956+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: stashed password to try later in open session
+2026-02-02T13:46:52.843248+02:00 saleh-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session opened for user saleh(uid=1000) by saleh(uid=0)
+2026-02-02T13:46:52.861874+02:00 saleh-VMware-Virtual-Platform systemd-logind[880]: New session 2 of user saleh.
+2026-02-02T13:46:52.891892+02:00 saleh-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user saleh(uid=1000) by saleh(uid=0)
+2026-02-02T13:46:53.245397+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T13:46:53.882513+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2244]: discover_other_daemon: 1
+2026-02-02T13:46:53.882596+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2063]: The Secret Service was already initialized
+2026-02-02T13:46:53.882813+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2247]: discover_other_daemon: 1
+2026-02-02T13:46:53.883516+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2063]: The PKCS#11 component was already initialized
+2026-02-02T13:46:53.884156+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2249]: discover_other_daemon: 1
+2026-02-02T13:46:56.434837+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-02T13:46:59.491154+02:00 saleh-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-02-02T13:46:59.547974+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-02-02T13:46:59.549823+02:00 saleh-VMware-Virtual-Platform systemd-logind[880]: Session c1 logged out. Waiting for processes to exit.
+2026-02-02T13:46:59.568812+02:00 saleh-VMware-Virtual-Platform systemd-logind[880]: Removed session c1.
+2026-02-02T13:47:09.852992+02:00 saleh-VMware-Virtual-Platform (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-02-02T13:47:31.335626+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt install -y neofetch
+2026-02-02T13:47:31.336009+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:47:41.398626+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:47:57.666216+02:00 saleh-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:47:57.668427+02:00 saleh-VMware-Virtual-Platform pkexec[3881]: saleh: Executing command [USER=root] [TTY=unknown] [CWD=/home/saleh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-02-02T13:48:07.069638+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-02T13:48:07.070190+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:48:09.919499+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:48:14.388346+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2026-02-02T13:48:14.389531+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:48:17.087195+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:50:56.711009+02:00 saleh-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:50:56.713563+02:00 saleh-VMware-Virtual-Platform pkexec[4200]: saleh: Executing command [USER=root] [TTY=unknown] [CWD=/home/saleh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-02-02T13:51:54.488177+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/cp /etc/apt/sources.list /etc/apt/sources.list.bak
+2026-02-02T13:51:54.489043+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:51:54.496850+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:51:54.503105+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/sed -i s|http://rw.archive.ubuntu.com/ubuntu|http://archive.ubuntu.com/ubuntu|g /etc/apt/sources.list
+2026-02-02T13:51:54.504004+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:51:54.507528+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:51:54.514600+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/sed -i s|http://security.ubuntu.com/ubuntu|http://security.ubuntu.com/ubuntu|g /etc/apt/sources.list
+2026-02-02T13:51:54.515830+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:51:54.519759+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:52:30.922224+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt clean
+2026-02-02T13:52:30.924424+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:52:30.942479+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:52:30.950374+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/rm -rf /var/lib/apt/lists/auxfiles /var/lib/apt/lists/lock /var/lib/apt/lists/partial /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_InRelease /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_i18n_Translation-en
+2026-02-02T13:52:30.951422+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_multiverse_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_multiverse_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_multiverse_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_multiverse_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_multiverse_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_restricted_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_restricted_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_restricted_dep11_icons-48x48.tar.gz
+2026-02-02T13:52:30.951669+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_restricted_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_restricted_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_dep11_icons-64x64.tar.gz
+2026-02-02T13:52:30.951763+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_InRelease /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_binary-amd64_Packages
+2026-02-02T13:52:30.951858+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_restricted_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_restricted_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_restricted_i18n_Translation-en
+2026-02-02T13:52:30.951939+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_InRelease /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_cnf_Commands-amd64
+2026-02-02T13:52:30.952019+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_dep11_icons-48x48.tar.gz
+2026-02-02T13:52:30.952097+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_dep11_icons-64x64%402.tar.gz
+2026-02-02T13:52:30.952177+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_i18n_Translation-en
+2026-02-02T13:52:30.952259+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_InRelease /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_binary-amd64_Packages /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_cnf_Commands-amd64 /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_dep11_Components-amd64.yml.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_dep11_icons-48x48.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_dep11_icons-64x64.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_i18n_Translation-en /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_binary-amd64_Packages
+2026-02-02T13:52:30.952338+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_cnf_Commands-amd64 /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_dep11_Components-amd64.yml.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_dep11_icons-48x48.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_dep11_icons-64x64.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_i18n_Translation-en /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_binary-amd64_Packages /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_cnf_Commands-amd64 /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_dep11_Components-amd64.yml.gz
+2026-02-02T13:52:30.952418+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_dep11_icons-48x48.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_dep11_icons-64x64.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_i18n_Translation-en /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_binary-amd64_Packages /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_cnf_Commands-amd64 /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_dep11_Components-amd64.yml.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_dep11_icons-48x48.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_dep11_icons-64x64%402.tar.gz
+2026-02-02T13:52:30.952502+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_dep11_icons-64x64.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_i18n_Translation-en
+2026-02-02T13:52:30.952898+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:52:30.964916+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:52:30.971032+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-02T13:52:30.971927+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:52:56.091817+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:52:56.100964+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt -y full-upgrade
+2026-02-02T13:52:56.101765+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:53:15.014455+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:53:56.975112+02:00 saleh-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:53:56.975858+02:00 saleh-VMware-Virtual-Platform pkexec[4606]: saleh: Executing command [USER=root] [TTY=unknown] [CWD=/home/saleh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-02-02T13:55:01.457096+02:00 saleh-VMware-Virtual-Platform CRON[4614]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T13:55:01.461215+02:00 saleh-VMware-Virtual-Platform CRON[4614]: pam_unix(cron:session): session closed for user root
+2026-02-02T13:57:10.823341+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/cp /etc/apt/sources.list.d/ubuntu.sources /etc/apt/sources.list.d/ubuntu.sources.bak
+2026-02-02T13:57:10.825055+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:57:10.829016+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:57:10.835290+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/sed -i s|http://rw.archive.ubuntu.com/ubuntu|http://archive.ubuntu.com/ubuntu|g /etc/apt/sources.list.d/ubuntu.sources
+2026-02-02T13:57:10.836256+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:57:10.839291+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:57:39.905691+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt clean
+2026-02-02T13:57:39.906359+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:57:39.926906+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:57:39.934489+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/rm -rf /var/lib/apt/lists/auxfiles /var/lib/apt/lists/lock /var/lib/apt/lists/partial /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_InRelease /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_main_i18n_Translation-en
+2026-02-02T13:57:39.934786+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_multiverse_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_multiverse_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_multiverse_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_multiverse_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_multiverse_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_restricted_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_restricted_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_restricted_dep11_icons-48x48.tar.gz
+2026-02-02T13:57:39.934910+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_restricted_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_restricted_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_dep11_icons-64x64.tar.gz
+2026-02-02T13:57:39.935025+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-backports_universe_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_InRelease /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_main_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_binary-amd64_Packages
+2026-02-02T13:57:39.935140+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_multiverse_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_restricted_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_restricted_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_restricted_i18n_Translation-en
+2026-02-02T13:57:39.935232+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble_universe_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_InRelease /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_cnf_Commands-amd64
+2026-02-02T13:57:39.935305+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_main_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_dep11_icons-48x48.tar.gz
+2026-02-02T13:57:39.935378+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_multiverse_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_dep11_icons-64x64%402.tar.gz
+2026-02-02T13:57:39.935451+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_i18n_Translation-en /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_binary-amd64_Packages /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_cnf_Commands-amd64 /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_dep11_Components-amd64.yml.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_dep11_icons-48x48.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_dep11_icons-64x64.tar.gz /var/lib/apt/lists/rw.archive.ubuntu.com_ubuntu_dists_noble-updates_universe_i18n_Translation-en
+2026-02-02T13:57:39.935524+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_InRelease /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_binary-amd64_Packages /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_cnf_Commands-amd64 /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_dep11_Components-amd64.yml.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_dep11_icons-48x48.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_dep11_icons-64x64.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_main_i18n_Translation-en /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_binary-amd64_Packages
+2026-02-02T13:57:39.935596+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_cnf_Commands-amd64 /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_dep11_Components-amd64.yml.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_dep11_icons-48x48.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_dep11_icons-64x64.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_multiverse_i18n_Translation-en /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_binary-amd64_Packages /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_cnf_Commands-amd64 /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_dep11_Components-amd64.yml.gz
+2026-02-02T13:57:39.935808+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_dep11_icons-48x48.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_dep11_icons-64x64%402.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_dep11_icons-64x64.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_restricted_i18n_Translation-en /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_binary-amd64_Packages /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_cnf_Commands-amd64 /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_dep11_Components-amd64.yml.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_dep11_icons-48x48.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_dep11_icons-64x64%402.tar.gz
+2026-02-02T13:57:39.935914+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : (command continued) /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_dep11_icons-64x64.tar.gz /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_noble-security_universe_i18n_Translation-en
+2026-02-02T13:57:39.936189+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:57:39.963752+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:57:39.971329+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-02T13:57:39.971640+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:58:25.613342+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T13:58:43.184553+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt -y full-upgrade
+2026-02-02T13:58:43.185304+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:59:56.559504+02:00 saleh-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T13:59:56.561294+02:00 saleh-VMware-Virtual-Platform pkexec[5018]: saleh: Executing command [USER=root] [TTY=unknown] [CWD=/home/saleh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-02-02T14:03:00.939540+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:00.939596+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:00.939618+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:00.939659+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:00.948338+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:00.948433+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:00.948465+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:00.948481+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:00.948498+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:00.949388+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:08.192184+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:08.192970+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:08.193082+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:08.194755+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:08.197705+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:08.198139+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:08.198247+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:08.198299+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:08.198331+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:08.202206+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:12.043740+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:12.043837+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:12.043906+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:12.043940+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:12.046145+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:12.046750+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:12.046816+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:12.046850+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:12.046883+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:12.049623+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:13.238855+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:13.238923+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:13.238953+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:13.238981+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:13.249391+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:13.249978+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:13.250057+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:13.250114+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:13.250176+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:13.257457+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:13.377131+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:13.379569+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:13.379683+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:13.380020+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:13.386675+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:13.386880+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:13.386918+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:13.386948+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:13.386978+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:13.395372+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:15.620525+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:15.620620+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:15.620717+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:15.620751+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:15.625171+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:15.625745+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:15.625786+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:15.625824+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:15.625860+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:15.631810+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:16.865566+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:16.865690+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:16.865736+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:16.865766+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:16.869717+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:03:16.869781+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Reloading rules
+2026-02-02T14:03:16.869820+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Collecting garbage unconditionally...
+2026-02-02T14:03:16.869843+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:03:16.869870+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:03:16.872206+02:00 saleh-VMware-Virtual-Platform polkitd[851]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:04:04.711484+02:00 saleh-VMware-Virtual-Platform dbus-daemon[843]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-02-02T14:04:34.641497+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:04:53.205741+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt -y autoremove
+2026-02-02T14:04:53.207666+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:04:55.205873+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:04:55.211881+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/sbin/reboot
+2026-02-02T14:04:55.212713+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:04:55.218554+02:00 saleh-VMware-Virtual-Platform systemd-logind[880]: The system will reboot now!
+2026-02-02T14:04:55.231589+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:04:55.237257+02:00 saleh-VMware-Virtual-Platform systemd-logind[880]: System is rebooting.
+2026-02-02T14:04:55.283334+02:00 saleh-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session closed for user saleh
+2026-02-02T14:05:19.693663+02:00 saleh-VMware-Virtual-Platform systemd-logind[881]: New seat seat0.
+2026-02-02T14:05:19.693671+02:00 saleh-VMware-Virtual-Platform systemd-logind[881]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-02-02T14:05:19.693679+02:00 saleh-VMware-Virtual-Platform systemd-logind[881]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-02-02T14:05:19.693706+02:00 saleh-VMware-Virtual-Platform polkitd[850]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:05:19.693716+02:00 saleh-VMware-Virtual-Platform polkitd[850]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:05:19.693725+02:00 saleh-VMware-Virtual-Platform polkitd[850]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:05:19.693741+02:00 saleh-VMware-Virtual-Platform polkitd[850]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-02T14:05:22.595693+02:00 saleh-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-02-02T14:05:22.686804+02:00 saleh-VMware-Virtual-Platform systemd-logind[881]: New session c1 of user gdm.
+2026-02-02T14:05:22.795858+02:00 saleh-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-02-02T14:05:27.621027+02:00 saleh-VMware-Virtual-Platform polkitd[850]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-02T14:05:35.104640+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unable to locate daemon control file
+2026-02-02T14:05:35.105353+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: stashed password to try later in open session
+2026-02-02T14:05:35.116237+02:00 saleh-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session opened for user saleh(uid=1000) by saleh(uid=0)
+2026-02-02T14:05:35.133798+02:00 saleh-VMware-Virtual-Platform systemd-logind[881]: New session 2 of user saleh.
+2026-02-02T14:05:35.173128+02:00 saleh-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user saleh(uid=1000) by saleh(uid=0)
+2026-02-02T14:05:35.576031+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T14:05:36.539759+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2026]: The Secret Service was already initialized
+2026-02-02T14:05:36.542479+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2223]: discover_other_daemon: 1
+2026-02-02T14:05:36.555421+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2026]: The PKCS#11 component was already initialized
+2026-02-02T14:05:36.557238+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2224]: discover_other_daemon: 1
+2026-02-02T14:05:36.565861+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2226]: discover_other_daemon: 1
+2026-02-02T14:05:40.354635+02:00 saleh-VMware-Virtual-Platform polkitd[850]: Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-02T14:05:43.719911+02:00 saleh-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-02-02T14:05:43.741414+02:00 saleh-VMware-Virtual-Platform polkitd[850]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-02-02T14:05:43.838483+02:00 saleh-VMware-Virtual-Platform systemd-logind[881]: Session c1 logged out. Waiting for processes to exit.
+2026-02-02T14:05:44.052192+02:00 saleh-VMware-Virtual-Platform systemd-logind[881]: Removed session c1.
+2026-02-02T14:05:53.045877+02:00 saleh-VMware-Virtual-Platform (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-02-02T14:06:11.581369+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-02T14:06:11.581920+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:06:25.475278+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:06:56.176205+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-02-02T14:06:56.176964+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:06:56.266893+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:10:46.910648+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/sbin/ufw default deny incoming
+2026-02-02T14:10:46.912357+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:10:46.964526+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:10:46.972244+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/sbin/ufw default allow outgoing
+2026-02-02T14:10:46.973146+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:10:47.015483+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:10:47.025394+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/sbin/ufw allow OpenSSH
+2026-02-02T14:10:47.026185+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:10:47.077544+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:10:47.085421+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/sbin/ufw enable
+2026-02-02T14:10:47.086199+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:10:47.480165+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:10:47.487651+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-02-02T14:10:47.488591+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:10:47.548548+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:11:18.685462+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/systemctl disable --now avahi-daemon
+2026-02-02T14:11:18.685721+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:11:19.031804+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:11:19.042276+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt purge -y avahi-daemon
+2026-02-02T14:11:19.043742+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:11:22.722410+02:00 saleh-VMware-Virtual-Platform userdel[4454]: delete user 'avahi'
+2026-02-02T14:11:22.723444+02:00 saleh-VMware-Virtual-Platform userdel[4454]: removed group 'avahi' owned by 'avahi'
+2026-02-02T14:11:22.723486+02:00 saleh-VMware-Virtual-Platform userdel[4454]: removed shadow group 'avahi' owned by 'avahi'
+2026-02-02T14:11:24.097846+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:11:24.104446+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt autoremove -y
+2026-02-02T14:11:24.105375+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:11:26.119391+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:11:57.063522+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/systemctl disable --now cups
+2026-02-02T14:11:57.064463+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:11:57.925849+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:11:57.932389+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt purge -y cups cups-browsed
+2026-02-02T14:11:57.933069+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:12:01.664005+02:00 saleh-VMware-Virtual-Platform userdel[5507]: delete user 'cups-browsed'
+2026-02-02T14:12:03.138548+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:12:03.146783+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt autoremove -y
+2026-02-02T14:12:03.147493+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:12:09.259001+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:12:54.289390+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-02T14:12:54.291955+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:12:57.451143+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:12:57.459577+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt install -y open-vm-tools-desktop
+2026-02-02T14:12:57.461032+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:12:58.081481+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:12:58.088633+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/sbin/reboot
+2026-02-02T14:12:58.090761+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:12:58.099303+02:00 saleh-VMware-Virtual-Platform systemd-logind[881]: The system will reboot now!
+2026-02-02T14:12:58.113676+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:12:58.123154+02:00 saleh-VMware-Virtual-Platform systemd-logind[881]: System is rebooting.
+2026-02-02T14:12:58.149059+02:00 saleh-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session closed for user saleh
+2026-02-02T14:13:26.458330+02:00 saleh-VMware-Virtual-Platform systemd-logind[958]: New seat seat0.
+2026-02-02T14:13:26.458338+02:00 saleh-VMware-Virtual-Platform systemd-logind[958]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-02-02T14:13:26.458345+02:00 saleh-VMware-Virtual-Platform systemd-logind[958]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-02-02T14:13:26.458376+02:00 saleh-VMware-Virtual-Platform polkitd[929]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T14:13:26.458383+02:00 saleh-VMware-Virtual-Platform polkitd[929]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T14:13:26.458391+02:00 saleh-VMware-Virtual-Platform polkitd[929]: Finished loading, compiling and executing 16 rules
+2026-02-02T14:13:26.458405+02:00 saleh-VMware-Virtual-Platform polkitd[929]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-02T14:13:28.777445+02:00 saleh-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-02-02T14:13:28.846963+02:00 saleh-VMware-Virtual-Platform systemd-logind[958]: New session c1 of user gdm.
+2026-02-02T14:13:28.978760+02:00 saleh-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-02-02T14:13:33.212029+02:00 saleh-VMware-Virtual-Platform polkitd[929]: Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-02T14:14:10.482586+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unable to locate daemon control file
+2026-02-02T14:14:10.482648+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: stashed password to try later in open session
+2026-02-02T14:14:10.492522+02:00 saleh-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session opened for user saleh(uid=1000) by saleh(uid=0)
+2026-02-02T14:14:10.509714+02:00 saleh-VMware-Virtual-Platform systemd-logind[958]: New session 2 of user saleh.
+2026-02-02T14:14:10.537009+02:00 saleh-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user saleh(uid=1000) by saleh(uid=0)
+2026-02-02T14:14:10.770152+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T14:14:11.473335+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2081]: The Secret Service was already initialized
+2026-02-02T14:14:11.473680+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2287]: discover_other_daemon: 1
+2026-02-02T14:14:11.481854+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2081]: The PKCS#11 component was already initialized
+2026-02-02T14:14:11.482218+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2289]: discover_other_daemon: 1
+2026-02-02T14:14:11.488003+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2291]: discover_other_daemon: 1
+2026-02-02T14:14:13.419836+02:00 saleh-VMware-Virtual-Platform polkitd[929]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-02T14:14:15.267490+02:00 saleh-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-02-02T14:14:15.285722+02:00 saleh-VMware-Virtual-Platform systemd-logind[958]: Session c1 logged out. Waiting for processes to exit.
+2026-02-02T14:14:15.308958+02:00 saleh-VMware-Virtual-Platform polkitd[929]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.33, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-02-02T14:14:15.324321+02:00 saleh-VMware-Virtual-Platform systemd-logind[958]: Removed session c1.
+2026-02-02T14:14:25.627670+02:00 saleh-VMware-Virtual-Platform (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-02-02T14:15:01.095669+02:00 saleh-VMware-Virtual-Platform CRON[3306]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T14:15:01.105083+02:00 saleh-VMware-Virtual-Platform CRON[3306]: pam_unix(cron:session): session closed for user root
+2026-02-02T14:17:01.109194+02:00 saleh-VMware-Virtual-Platform CRON[3359]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T14:17:01.115106+02:00 saleh-VMware-Virtual-Platform CRON[3359]: pam_unix(cron:session): session closed for user root
+2026-02-02T14:19:45.554247+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-02-02T14:19:45.556315+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:19:45.619644+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:25:01.125757+02:00 saleh-VMware-Virtual-Platform CRON[3411]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T14:25:01.129632+02:00 saleh-VMware-Virtual-Platform CRON[3411]: pam_unix(cron:session): session closed for user root
+2026-02-02T14:26:59.058969+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T14:30:01.136977+02:00 saleh-VMware-Virtual-Platform CRON[3542]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T14:30:01.139910+02:00 saleh-VMware-Virtual-Platform CRON[3542]: pam_unix(cron:session): session closed for user root
+2026-02-02T14:35:01.148757+02:00 saleh-VMware-Virtual-Platform CRON[3569]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T14:35:01.152949+02:00 saleh-VMware-Virtual-Platform CRON[3569]: pam_unix(cron:session): session closed for user root
+2026-02-02T14:48:25.620660+02:00 saleh-VMware-Virtual-Platform CRON[3608]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T14:48:25.625204+02:00 saleh-VMware-Virtual-Platform CRON[3608]: pam_unix(cron:session): session closed for user root
+2026-02-02T14:48:31.381778+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T14:49:05.910805+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh/ubuntu-blue-team-hardening ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-02-02T14:49:05.911042+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:49:05.966944+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:52:21.438032+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh/ubuntu-blue-team-hardening ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-02-02T14:52:21.439508+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T14:52:21.495527+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T14:55:01.632268+02:00 saleh-VMware-Virtual-Platform CRON[3772]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T14:55:01.636196+02:00 saleh-VMware-Virtual-Platform CRON[3772]: pam_unix(cron:session): session closed for user root
+2026-02-02T15:01:21.840570+02:00 saleh-VMware-Virtual-Platform dbus-daemon[917]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-02-02T15:05:01.648940+02:00 saleh-VMware-Virtual-Platform CRON[3952]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T15:05:01.652621+02:00 saleh-VMware-Virtual-Platform CRON[3952]: pam_unix(cron:session): session closed for user root
+2026-02-02T15:09:56.957493+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T15:15:01.063865+02:00 saleh-VMware-Virtual-Platform CRON[4064]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T15:15:01.072695+02:00 saleh-VMware-Virtual-Platform CRON[4064]: pam_unix(cron:session): session closed for user root
+2026-02-02T15:17:01.079414+02:00 saleh-VMware-Virtual-Platform CRON[4079]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T15:17:01.083093+02:00 saleh-VMware-Virtual-Platform CRON[4079]: pam_unix(cron:session): session closed for user root
+2026-02-02T15:25:01.107961+02:00 saleh-VMware-Virtual-Platform CRON[4110]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T15:25:01.113259+02:00 saleh-VMware-Virtual-Platform CRON[4110]: pam_unix(cron:session): session closed for user root
+2026-02-02T15:30:01.119362+02:00 saleh-VMware-Virtual-Platform CRON[4116]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T15:30:01.125069+02:00 saleh-VMware-Virtual-Platform CRON[4116]: pam_unix(cron:session): session closed for user root
+2026-02-02T15:35:01.134025+02:00 saleh-VMware-Virtual-Platform CRON[4131]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T15:35:01.138703+02:00 saleh-VMware-Virtual-Platform CRON[4131]: pam_unix(cron:session): session closed for user root
+2026-02-02T16:05:01.768822+02:00 saleh-VMware-Virtual-Platform CRON[4196]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T16:05:01.776620+02:00 saleh-VMware-Virtual-Platform CRON[4196]: pam_unix(cron:session): session closed for user root
+2026-02-02T16:05:44.152642+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T16:08:12.605663+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh/portfolio/network-traffic-analysis ; USER=root ; COMMAND=/usr/bin/tcpdump -i ens33 -nn -w evidence/baseline.pcap
+2026-02-02T16:08:12.607186+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:11:47.521641+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:14:43.396219+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh/portfolio/network-traffic-analysis ; USER=root ; COMMAND=/usr/bin/tcpdump -i ens33 -nn -w evidence/active_traffic.pcap
+2026-02-02T16:14:43.399166+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:15:01.788077+02:00 saleh-VMware-Virtual-Platform CRON[4355]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T16:15:01.792773+02:00 saleh-VMware-Virtual-Platform CRON[4355]: pam_unix(cron:session): session closed for user root
+2026-02-02T16:17:01.806646+02:00 saleh-VMware-Virtual-Platform CRON[4365]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T16:17:01.824170+02:00 saleh-VMware-Virtual-Platform CRON[4365]: pam_unix(cron:session): session closed for user root
+2026-02-02T16:20:16.679556+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:25:01.255924+02:00 saleh-VMware-Virtual-Platform CRON[4394]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T16:25:01.271912+02:00 saleh-VMware-Virtual-Platform CRON[4394]: pam_unix(cron:session): session closed for user root
+2026-02-02T16:26:55.842793+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh/portfolio/network-traffic-analysis ; USER=root ; COMMAND=/usr/bin/resolvectl dns ens33 8.8.8.8 1.1.1.1
+2026-02-02T16:26:55.844591+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:26:55.859345+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:26:55.869766+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh/portfolio/network-traffic-analysis ; USER=root ; COMMAND=/usr/bin/resolvectl domain ens33 ~.
+2026-02-02T16:26:55.871361+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:26:55.882435+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:27:41.823758+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh/portfolio/network-traffic-analysis ; USER=root ; COMMAND=/usr/bin/apt install -y curl dnsutils
+2026-02-02T16:27:41.824910+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:30:01.291179+02:00 saleh-VMware-Virtual-Platform CRON[4458]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T16:30:01.305110+02:00 saleh-VMware-Virtual-Platform CRON[4458]: pam_unix(cron:session): session closed for user root
+2026-02-02T16:30:54.783972+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:31:16.410935+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh/portfolio/network-traffic-analysis ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-02T16:31:16.412565+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:31:45.823367+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:31:51.817164+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh/portfolio/network-traffic-analysis ; USER=root ; COMMAND=/usr/sbin/reboot
+2026-02-02T16:31:51.818454+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:31:51.825854+02:00 saleh-VMware-Virtual-Platform systemd-logind[958]: The system will reboot now!
+2026-02-02T16:31:51.849242+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:31:51.858750+02:00 saleh-VMware-Virtual-Platform systemd-logind[958]: System is rebooting.
+2026-02-02T16:31:51.938582+02:00 saleh-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session closed for user saleh
+2026-02-02T16:32:15.901507+02:00 saleh-VMware-Virtual-Platform systemd-logind[943]: New seat seat0.
+2026-02-02T16:32:15.901511+02:00 saleh-VMware-Virtual-Platform systemd-logind[943]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-02-02T16:32:15.901515+02:00 saleh-VMware-Virtual-Platform systemd-logind[943]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-02-02T16:32:15.968166+02:00 saleh-VMware-Virtual-Platform polkitd[895]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T16:32:15.969693+02:00 saleh-VMware-Virtual-Platform polkitd[895]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T16:32:16.055616+02:00 saleh-VMware-Virtual-Platform polkitd[895]: Finished loading, compiling and executing 16 rules
+2026-02-02T16:32:16.057199+02:00 saleh-VMware-Virtual-Platform polkitd[895]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-02T16:32:18.456184+02:00 saleh-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-02-02T16:32:18.474572+02:00 saleh-VMware-Virtual-Platform systemd-logind[943]: New session c1 of user gdm.
+2026-02-02T16:32:18.567742+02:00 saleh-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-02-02T16:32:22.557290+02:00 saleh-VMware-Virtual-Platform polkitd[895]: Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-02T16:33:31.469758+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unable to locate daemon control file
+2026-02-02T16:33:31.469922+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: stashed password to try later in open session
+2026-02-02T16:33:31.484938+02:00 saleh-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session opened for user saleh(uid=1000) by saleh(uid=0)
+2026-02-02T16:33:31.502002+02:00 saleh-VMware-Virtual-Platform systemd-logind[943]: New session 2 of user saleh.
+2026-02-02T16:33:31.539305+02:00 saleh-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user saleh(uid=1000) by saleh(uid=0)
+2026-02-02T16:33:31.967790+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T16:33:32.780842+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2086]: The Secret Service was already initialized
+2026-02-02T16:33:32.781614+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2279]: discover_other_daemon: 1
+2026-02-02T16:33:32.788375+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2280]: discover_other_daemon: 1
+2026-02-02T16:33:32.788625+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2086]: The PKCS#11 component was already initialized
+2026-02-02T16:33:32.789030+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2282]: discover_other_daemon: 1
+2026-02-02T16:33:35.813260+02:00 saleh-VMware-Virtual-Platform polkitd[895]: Registered Authentication Agent for unix-session:2 (system bus name :1.71 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-02T16:33:38.314957+02:00 saleh-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-02-02T16:33:38.334235+02:00 saleh-VMware-Virtual-Platform systemd-logind[943]: Session c1 logged out. Waiting for processes to exit.
+2026-02-02T16:33:38.390198+02:00 saleh-VMware-Virtual-Platform polkitd[895]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.33, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-02-02T16:33:38.421553+02:00 saleh-VMware-Virtual-Platform systemd-logind[943]: Removed session c1.
+2026-02-02T16:34:13.549826+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-02T16:34:13.551432+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:35:01.336357+02:00 saleh-VMware-Virtual-Platform CRON[3335]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T16:35:01.347850+02:00 saleh-VMware-Virtual-Platform CRON[3335]: pam_unix(cron:session): session closed for user root
+2026-02-02T16:36:43.929532+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:36:53.465909+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt install -y curl dnsutils
+2026-02-02T16:36:53.467427+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:37:42.159938+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:41:02.760894+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/rm -f /etc/resolv.conf
+2026-02-02T16:41:02.763588+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:41:02.773083+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:41:02.783226+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/tee /etc/resolv.conf
+2026-02-02T16:41:02.784656+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:41:02.790758+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:41:40.770311+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/sed -i 's/#DNS=/DNS=8.8.8.8 1.1.1.1/' /etc/systemd/resolved.conf
+2026-02-02T16:41:40.771409+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:41:40.776107+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:41:40.787508+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/sed -i s/#FallbackDNS=/FallbackDNS=1.1.1.1/ /etc/systemd/resolved.conf
+2026-02-02T16:41:40.788658+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:41:40.793684+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:41:40.803571+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/systemctl restart systemd-resolved
+2026-02-02T16:41:40.804956+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:41:40.920204+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:42:04.867071+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-02T16:42:04.869362+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:42:56.328666+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:42:56.367518+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt install -y curl dnsutils
+2026-02-02T16:42:56.369372+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:43:09.475044+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:50:19.499650+02:00 saleh-VMware-Virtual-Platform systemd-logind[1082]: New seat seat0.
+2026-02-02T16:50:19.499663+02:00 saleh-VMware-Virtual-Platform systemd-logind[1082]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-02-02T16:50:19.499669+02:00 saleh-VMware-Virtual-Platform systemd-logind[1082]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2026-02-02T16:50:19.499687+02:00 saleh-VMware-Virtual-Platform polkitd[1004]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-02T16:50:19.499708+02:00 saleh-VMware-Virtual-Platform polkitd[1004]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-02T16:50:19.499722+02:00 saleh-VMware-Virtual-Platform polkitd[1004]: Finished loading, compiling and executing 16 rules
+2026-02-02T16:50:19.499742+02:00 saleh-VMware-Virtual-Platform polkitd[1004]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-02T16:50:21.459481+02:00 saleh-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-02-02T16:50:21.537214+02:00 saleh-VMware-Virtual-Platform systemd-logind[1082]: New session c1 of user gdm.
+2026-02-02T16:50:21.625058+02:00 saleh-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-02-02T16:50:26.101357+02:00 saleh-VMware-Virtual-Platform polkitd[1004]: Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-02T16:50:40.034893+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unable to locate daemon control file
+2026-02-02T16:50:40.035382+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: stashed password to try later in open session
+2026-02-02T16:50:40.051091+02:00 saleh-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session opened for user saleh(uid=1000) by saleh(uid=0)
+2026-02-02T16:50:40.068071+02:00 saleh-VMware-Virtual-Platform systemd-logind[1082]: New session 2 of user saleh.
+2026-02-02T16:50:40.117530+02:00 saleh-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user saleh(uid=1000) by saleh(uid=0)
+2026-02-02T16:50:40.578234+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T16:50:41.375145+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2255]: The Secret Service was already initialized
+2026-02-02T16:50:41.375684+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2457]: discover_other_daemon: 1
+2026-02-02T16:50:41.395709+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2255]: The PKCS#11 component was already initialized
+2026-02-02T16:50:41.397108+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2462]: discover_other_daemon: 1
+2026-02-02T16:50:41.402015+02:00 saleh-VMware-Virtual-Platform gnome-keyring-daemon[2464]: discover_other_daemon: 1
+2026-02-02T16:50:44.434752+02:00 saleh-VMware-Virtual-Platform polkitd[1004]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-02T16:50:48.323123+02:00 saleh-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-02-02T16:50:48.334653+02:00 saleh-VMware-Virtual-Platform systemd-logind[1082]: Session c1 logged out. Waiting for processes to exit.
+2026-02-02T16:50:48.348614+02:00 saleh-VMware-Virtual-Platform polkitd[1004]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.33, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-02-02T16:50:48.363109+02:00 saleh-VMware-Virtual-Platform systemd-logind[1082]: Removed session c1.
+2026-02-02T16:52:24.219450+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-02T16:52:24.220220+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:52:39.714906+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:53:33.409963+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-02T16:53:33.413308+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:53:36.630287+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:53:36.644060+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh ; USER=root ; COMMAND=/usr/bin/apt install -y curl dnsutils
+2026-02-02T16:53:36.646442+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)
+2026-02-02T16:53:45.274463+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-02-02T16:55:01.085706+02:00 saleh-VMware-Virtual-Platform CRON[4079]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T16:55:01.094411+02:00 saleh-VMware-Virtual-Platform CRON[4079]: pam_unix(cron:session): session closed for user root
+2026-02-02T17:05:01.106096+02:00 saleh-VMware-Virtual-Platform CRON[4122]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T17:05:01.114646+02:00 saleh-VMware-Virtual-Platform CRON[4122]: pam_unix(cron:session): session closed for user root
+2026-02-02T17:06:49.888786+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T17:15:01.138850+02:00 saleh-VMware-Virtual-Platform CRON[4275]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T17:15:01.150453+02:00 saleh-VMware-Virtual-Platform CRON[4275]: pam_unix(cron:session): session closed for user root
+2026-02-02T17:17:01.160320+02:00 saleh-VMware-Virtual-Platform CRON[4292]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T17:17:01.167568+02:00 saleh-VMware-Virtual-Platform CRON[4292]: pam_unix(cron:session): session closed for user root
+2026-02-02T17:24:18.549444+02:00 saleh-VMware-Virtual-Platform dbus-daemon[965]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-02-02T17:25:01.177721+02:00 saleh-VMware-Virtual-Platform CRON[4336]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T17:25:01.183157+02:00 saleh-VMware-Virtual-Platform CRON[4336]: pam_unix(cron:session): session closed for user root
+2026-02-02T17:26:02.586247+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T17:30:01.191997+02:00 saleh-VMware-Virtual-Platform CRON[4456]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T17:30:01.195094+02:00 saleh-VMware-Virtual-Platform CRON[4456]: pam_unix(cron:session): session closed for user root
+2026-02-02T17:35:01.202915+02:00 saleh-VMware-Virtual-Platform CRON[4480]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-02T17:35:01.208398+02:00 saleh-VMware-Virtual-Platform CRON[4480]: pam_unix(cron:session): session closed for user root
+2026-02-02T17:35:08.609791+02:00 saleh-VMware-Virtual-Platform gdm-password]: gkr-pam: unlocked login keyring
+2026-02-02T17:35:59.062696+02:00 saleh-VMware-Virtual-Platform sudo:    saleh : TTY=pts/0 ; PWD=/home/saleh/portfolio/log-analysis ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/saleh/portfolio/log-analysis/evidence/auth.log
+2026-02-02T17:35:59.063461+02:00 saleh-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by saleh(uid=1000)

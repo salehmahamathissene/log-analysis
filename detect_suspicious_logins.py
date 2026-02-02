@@ -1,0 +1,147 @@
+#!/usr/bin/env python3
+import re
+import json
+from collections import Counter, defaultdict
+from datetime import datetime
+
+AUTH_LOG = "evidence/auth.log"
+REPORT_JSON = "reports/alerts.json"
+REPORT_TXT = "reports/alerts.txt"
+
+# --- Detection rules (simple but SOC-real) ---
+FAILED_THRESHOLD = 3              # brute-force threshold
+SUDO_BURST_THRESHOLD = 8          # many sudo commands in short window (we do rough burst by count)
+SENSITIVE_KEYWORDS = [
+    "/etc/resolv.conf",
+    "systemd-resolved",
+    "resolvectl",
+    "/etc/apt/sources.list",
+    "ubuntu.sources",
+    "ufw ",
+    "disable --now",
+    "apt purge",
+    "cups",
+    "avahi",
+]
+
+failed_by_ip = Counter()
+sudo_by_user = Counter()
+sensitive_hits = []
+raw_sudo_lines = []
+
+# Timestamp regex: your log lines start with ISO timestamp like 2026-02-02T...
+ts_re = re.compile(r"^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})")
+ip_re = re.compile(r"from (\d+\.\d+\.\d+\.\d+)")
+
+def parse_ts(line: str):
+    m = ts_re.search(line)
+    if not m:
+        return None
+    try:
+        return datetime.fromisoformat(m.group(1))
+    except Exception:
+        return None
+
+with open(AUTH_LOG, "r", errors="ignore") as f:
+    for line in f:
+        # Failed SSH (if any)
+        if "Failed password" in line:
+            m = ip_re.search(line)
+            if m:
+                failed_by_ip[m.group(1)] += 1
+
+        # Sudo usage
+        if " sudo:" in line:
+            # Example: "sudo:    saleh : TTY=..."
+            m = re.search(r"sudo:\s+(\S+)\s+:\s+TTY=", line)
+            if m:
+                user = m.group(1)
+                sudo_by_user[user] += 1
+                raw_sudo_lines.append(line.strip())
+
+        # Sensitive changes (config tampering / hardening / package changes)
+        for kw in SENSITIVE_KEYWORDS:
+            if kw in line:
+                sensitive_hits.append(line.strip())
+                break
+
+alerts = []
+
+# Alert 1: brute force
+for ip, count in failed_by_ip.items():
+    if count >= FAILED_THRESHOLD:
+        alerts.append({
+            "type": "BRUTE_FORCE_SUSPECTED",
+            "severity": "high",
+            "indicator": ip,
+            "count": count,
+            "explain": f"{count} failed SSH logins from {ip}",
+        })
+
+# Alert 2: heavy sudo usage (baseline: you have many sudo events)
+for user, count in sudo_by_user.items():
+    if count >= SUDO_BURST_THRESHOLD:
+        alerts.append({
+            "type": "PRIVILEGE_ACTIVITY_HIGH",
+            "severity": "medium",
+            "indicator": user,
+            "count": count,
+            "explain": f"{count} sudo commands executed by {user} (review for risky admin actions)",
+        })
+
+# Alert 3: sensitive changes present
+if sensitive_hits:
+    alerts.append({
+        "type": "SENSITIVE_SYSTEM_CHANGES",
+        "severity": "medium",
+        "indicator": "system-config",
+        "count": len(sensitive_hits),
+        "explain": "Sensitive configuration / hardening commands detected (DNS, apt sources, firewall, service disable/purge). Review the change log.",
+    })
+
+report = {
+    "generated_at": datetime.now().isoformat(timespec="seconds"),
+    "source": AUTH_LOG,
+    "summary": {
+        "failed_login_ips": len(failed_by_ip),
+        "total_failed_logins": sum(failed_by_ip.values()),
+        "sudo_users": len(sudo_by_user),
+        "total_sudo_events": sum(sudo_by_user.values()),
+        "sensitive_hits": len(sensitive_hits),
+        "alerts": len(alerts),
+    },
+    "top": {
+        "failed_by_ip": failed_by_ip.most_common(10),
+        "sudo_by_user": sudo_by_user.most_common(10),
+    },
+    "alerts": alerts,
+    "evidence": {
+        "sample_sudo_lines": raw_sudo_lines[:12],
+        "sample_sensitive_hits": sensitive_hits[:20],
+    }
+}
+
+# Write reports
+with open(REPORT_JSON, "w") as f:
+    json.dump(report, f, indent=2)
+
+with open(REPORT_TXT, "w") as f:
+    f.write("=== SOC ALERT REPORT ===\n")
+    f.write(json.dumps(report["summary"], indent=2))
+    f.write("\n\n=== ALERTS ===\n")
+    if not alerts:
+        f.write("No alerts triggered.\n")
+    else:
+        for a in alerts:
+            f.write(f"- [{a['severity']}] {a['type']}: {a['explain']}\n")
+    f.write("\n\n=== SAMPLE EVIDENCE (sudo) ===\n")
+    for line in report["evidence"]["sample_sudo_lines"]:
+        f.write(line + "\n")
+    f.write("\n\n=== SAMPLE EVIDENCE (sensitive changes) ===\n")
+    for line in report["evidence"]["sample_sensitive_hits"]:
+        f.write(line + "\n")
+
+print("✅ Report written:")
+print(" -", REPORT_TXT)
+print(" -", REPORT_JSON)
+print("\nSummary:", report["summary"])
