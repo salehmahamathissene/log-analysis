@@ -5,3 +5,9 @@ reports/alerts.json
 reports/alerts.txt
 reports/timeline.txt
 reports/events.jsonl
+
+# generated reports (auto)
+reports/alerts.json
+reports/alerts.txt
+reports/timeline.txt
+reports/events.jsonl
