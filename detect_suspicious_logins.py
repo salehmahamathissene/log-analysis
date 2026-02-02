@@ -4,9 +4,27 @@ import json
 from collections import Counter, defaultdict
 from datetime import datetime
 
+def classify_command(cmd: str) -> str:
+    c = cmd.lower()
+    if "ufw" in c:
+        return "firewall_change"
+    if "resolvectl" in c or "systemd-resolved" in c or "/etc/resolv.conf" in c:
+        return "dns_change"
+    if "apt " in c:
+        return "package_mgmt"
+    if "systemctl disable" in c or "systemctl stop" in c:
+        return "service_disabled"
+    if "sed -i" in c and ("/etc/apt" in c or "sources" in c):
+        return "repo_source_change"
+    if "reboot" in c:
+        return "reboot"
+    return "other_admin"
+
 AUTH_LOG = "evidence/auth.log"
 REPORT_JSON = "reports/alerts.json"
 REPORT_TXT = "reports/alerts.txt"
+REPORT_TIMELINE = "reports/timeline.txt"
+REPORT_JSONL = "reports/events.jsonl"
 
 # --- Detection rules (simple but SOC-real) ---
 FAILED_THRESHOLD = 3              # brute-force threshold
@@ -28,6 +46,7 @@ failed_by_ip = Counter()
 sudo_by_user = Counter()
 sensitive_hits = []
 raw_sudo_lines = []
+sudo_events = []  # structured events
 
 # Timestamp regex: your log lines start with ISO timestamp like 2026-02-02T...
 ts_re = re.compile(r"^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})")
