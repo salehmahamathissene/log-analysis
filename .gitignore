@@ -1,1 +1,7 @@
 evidence/auth.log
+
+# generated reports
+reports/alerts.json
+reports/alerts.txt
+reports/timeline.txt
+reports/events.jsonl
